@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/moonphoto.png" type="image/x-icon">
+</head>
+<body>
+ <div id="logo"> <span id="odin">ODIN</span></div>
+    <div class="container">
+        <div class="text">
+            <p>This is not a real online service! Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum consequuntur libero omnis a! Eaque inventore mollitia dolore rem iure libero.</p>
+            <p id="youk">You know you want to.</p>
+        </div>
+       
+            <form action="">
+                <div class="content">
+                    <h2>Let's do this!</h2>
+                        <div class="left">
+                            <label for="username">FIRST NAME</label>
+                            <input type="text" name="username" pattern="[A-Z]\w+">
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" required>
+                            <label for="password">PASSWORD</label >
+                            <input type="password" name="password" id="password" required>
+                        </div>
+                        <div class="right">
+                            
+                            <label for="lastname">LASTNAME</label>
+                            <input type="text" name="lastname" >
+                            <label for="phonenumber">PHONE NUMBER</label>
+                            <input type="tel" name="phonenumber" id="phonenumber" pattern="\d{11}|\d{3}-\d{3}-\d{4}|\d+" >
+                            <label for="confirmpassword" >CONFIRM PASSWORD
+                            </label>
+                            <input type="password" name="confirmpassword" id="confirmpassword"  required>
+                        </div>
+                </div>
+                    <button type="submit">Create Account?</button>
+                    <p>Already have an account? <a href="#">Log in</a></p>
+            </form>
+        
+    </div>
+    <script src="projeto.js"></script>
+</body>
+</html>
